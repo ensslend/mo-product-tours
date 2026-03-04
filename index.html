@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Momentus Product Tours — See Enterprise, Elite &amp; WeTrack in Action</title>
+<meta name="description" content="Explore interactive product tours for Momentus Enterprise, Elite, and WeTrack. See how venue management software helps convention centers, stadiums, arenas, universities, and corporate campuses grow revenue, save time, and simplify operations."/>
+<meta property="og:title" content="Product Tours — Momentus"/>
+<meta property="og:description" content="See how Momentus works. No demo request required."/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Momentus Product Tours — Enterprise, Elite &amp; WeTrack"/>
+<meta name="twitter:description" content="Interactive product tours for Momentus venue management software. See Enterprise, Elite, and WeTrack in action — no demo request required."/>
+<meta property="og:site_name" content="Momentus Technologies"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="Momentus Technologies"/>
+<meta property="og:url" content="https://gomomentus.com/product-tours"/>
+<meta property="og:image" content="https://cdn.prod.website-files.com/6852e3b615e8b42f7396962b/6904d6de68c4e0acde89f85f_Product%20Tour%20Featured%20Image.png"/>
+<meta name="twitter:image" content="https://cdn.prod.website-files.com/6852e3b615e8b42f7396962b/6904d6de68c4e0acde89f85f_Product%20Tour%20Featured%20Image.png"/>
+<meta name="theme-color" content="#080921"/>
+<link rel="canonical" href="https://gomomentus.com/product-tours"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet"/></noscript>
+<style>
+/* ── Reset ── */
+*,html,body{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#16184E;
+  --navy-mid:#1a1c5c;
+  --bg:#080921;
+  --bg-mid:#0c0e2e;
+  --yellow:#F5DA41;
+  --yellow-dim:rgba(245,218,65,.12);
+  --purple:#4146E0;
+  --violet:#B266E4;
+  --green:#34d399;
+  --white:#fff;
+  --muted:rgba(255,255,255,.45);
+  --border:rgba(255,255,255,.08);
+  --border-strong:rgba(255,255,255,.13);
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Plus Jakarta Sans',sans-serif;
+  background:var(--bg);
+  color:var(--white);
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+/* ── Grain ── */
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
+  opacity:.022;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ── Nav ── */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  height:60px;padding:0 max(28px,env(safe-area-inset-right));padding-left:max(28px,env(safe-area-inset-left));
+  display:flex;align-items:center;justify-content:space-between;
+  background:rgba(8,9,33,.88);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--border);
+  transition:background .3s;
+}
+.nav-logo{
+  display:flex;align-items:center;gap:9px;text-decoration:none;
+}
+.nav-logo-mark{
+  width:28px;height:28px;border-radius:7px;
+  background:var(--yellow);
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;
+}
+.nav-logo-text{font-size:16px;font-weight:800;color:#fff;letter-spacing:-.02em}
+.nav-right{display:flex;align-items:center;gap:12px}
+.nav-link{font-size:13px;font-weight:600;color:var(--muted);text-decoration:none;transition:color .15s}
+@media(max-width:600px){.nav-link{display:none}}
+.nav-link:hover{color:#fff}
+.nav-btn{
+  background:var(--yellow);color:var(--navy);
+  font-weight:800;font-size:13px;
+  padding:8px 18px;border-radius:999px;
+  text-decoration:none;transition:all .18s;
+}
+.nav-btn:hover{background:#f7e36a;transform:translateY(-1px)}
+
+/* ── HERO ── */
+.hero{
+  min-height:100vh;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  padding:60px 24px 60px;
+  text-align:center;
+  position:relative;overflow:hidden;
+}
+.hero-orb-1{
+  position:absolute;top:-10%;left:50%;transform:translateX(-50%);
+  width:min(700px,100%);height:480px;
+  background:radial-gradient(ellipse at 50% 0%,rgba(65,70,224,.2) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-orb-2{
+  position:absolute;bottom:0;left:0;width:400px;height:400px;
+  background:radial-gradient(ellipse at 0% 100%,rgba(178,102,228,.1) 0%,transparent 60%);
+  pointer-events:none;
+}
+
+.hero-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(245,218,65,.08);
+  border:1px solid rgba(245,218,65,.2);
+  color:var(--yellow);
+  font-size:10px;font-weight:800;
+  letter-spacing:.14em;text-transform:uppercase;
+  padding:5px 14px;border-radius:999px;
+  margin-bottom:24px;
+  position:relative;z-index:1;
+  animation:fadeUp .6s ease .05s both;
+}
+.badge-dot{width:5px;height:5px;border-radius:50%;background:var(--yellow);animation:pulse 2s ease infinite;will-change:opacity}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+.hero-h1{
+  font-size:clamp(32px,4.8vw,56px);
+  font-weight:900;
+  line-height:1.1;
+  letter-spacing:-.03em;
+  position:relative;z-index:1;
+  animation:fadeUp .65s ease .15s both;
+  max-width:860px;
+  min-height:2.2em;
+}
+.hero-h1 .line-static{display:block;color:#fff}
+
+
+.typewriter-cursor{
+  display:inline-block;color:var(--yellow);
+  font-weight:300;margin-left:1px;
+  animation:cursorBlink .65s step-end infinite;
+}
+@keyframes cursorBlink{0%,100%{opacity:1}50%{opacity:0}}
+.typewriter-target{color:var(--yellow);display:inline}
+
+.hero-sub{
+  font-size:clamp(15px,1.8vw,18px);
+  color:var(--muted);
+  line-height:1.7;
+  max-width:480px;
+  margin:20px auto 0;
+  position:relative;z-index:1;
+  animation:fadeUp .65s ease .25s both;
+  font-weight:400;
+}
+
+/* ── Product cards (above fold) ── */
+.hero-products{
+  display:flex;gap:12px;
+  margin-top:36px;
+  position:relative;z-index:1;
+  animation:fadeUp .65s ease .35s both;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.prod-card{
+  background:rgba(255,255,255,.04);
+  border:1.5px solid var(--border);
+  border-radius:16px;
+  padding:18px 22px;
+  cursor:pointer;
+  text-decoration:none;
+  transition:all .2s;
+  display:flex;flex-direction:column;
+  align-items:flex-start;
+  gap:10px;
+  min-width:180px;
+  max-width:220px;
+  flex:1;
+  position:relative;
+  overflow:hidden;
+  text-align:left;
+}
+.prod-card::before{
+  content:'';position:absolute;inset:0;
+  border-radius:14px;
+  opacity:0;transition:opacity .2s;
+}
+.prod-card:hover{transform:translateY(-3px);border-color:var(--border-strong)}
+.prod-card:hover::before{opacity:1}
+
+.prod-card[data-color="purple"]:hover{border-color:rgba(65,70,224,.5);background:rgba(65,70,224,.08)}
+.prod-card[data-color="violet"]:hover{border-color:rgba(178,102,228,.5);background:rgba(178,102,228,.07)}
+.prod-card[data-color="green"]:hover{border-color:rgba(52,211,153,.45);background:rgba(52,211,153,.06)}
+
+.prod-card-num{
+  font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  opacity:.4;
+}
+.prod-card-icon{
+  width:36px;height:36px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:17px;
+}
+.prod-card-name{
+  font-size:14px;font-weight:800;color:#fff;
+  line-height:1.25;letter-spacing:-.01em;
+}
+.prod-card-venues{
+  font-size:11px;color:var(--muted);font-weight:500;line-height:1.45;
+}
+.prod-card-arrow{
+  margin-top:4px;
+  font-size:13px;
+  opacity:.35;transition:opacity .2s, transform .2s;
+}
+.prod-card:hover .prod-card-arrow{opacity:.8;transform:translateX(3px)}
+
+.hero-hint{
+  margin-top:20px;font-size:11px;color:rgba(255,255,255,.22);
+  position:relative;z-index:1;
+  animation:fadeUp .65s ease .45s both;
+  letter-spacing:.05em;
+}
+
+/* ── Sticky nav ── */
+.sticky-nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(8,9,33,.92);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+.sticky-nav-inner{
+  max-width:1140px;margin:0 auto;
+  display:flex;padding:0 24px;
+  overflow-x:auto;scrollbar-width:none;
+}
+.sticky-nav-inner::-webkit-scrollbar{display:none}
+.snav-tab{
+  display:flex;align-items:center;gap:8px;
+  padding:14px 20px;
+  color:var(--muted);font-weight:700;font-size:13px;
+  border-bottom:2px solid transparent;
+  cursor:pointer;white-space:nowrap;
+  text-decoration:none;
+  transition:color .18s,border-color .18s;
+  background:none;border-top:none;border-left:none;border-right:none;
+  font-family:inherit;
+  min-height:44px;
+}
+.snav-tab:hover{color:rgba(255,255,255,.8)}
+.snav-tab.active{color:#fff}
+.snav-tab[data-id="enterprise"].active{border-bottom-color:var(--purple)}
+.snav-tab[data-id="elite"].active{border-bottom-color:var(--violet)}
+.snav-tab[data-id="wetrack"].active{border-bottom-color:var(--green)}
+.snav-dot{width:7px;height:7px;border-radius:50%;opacity:.5;flex-shrink:0;transition:opacity .18s}
+.snav-tab.active .snav-dot{opacity:1}
+
+/* ── Tour sections ── */
+.tour-section{
+  padding:80px 24px;
+  position:relative;
+  contain:layout style;
+}
+.tour-section:nth-child(even){background:rgba(255,255,255,.016)}
+.container{max-width:1140px;margin:0 auto}
+
+/* ── Section layout: info row above, full-width embed below ── */
+.tour-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:48px;
+  align-items:start;
+  margin-bottom:36px;
+}
+@media(max-width:880px){.tour-grid{grid-template-columns:1fr;gap:32px}}
+.tour-grid.flip{direction:rtl}
+.tour-grid.flip>*{direction:ltr}
+/* Full-width embed sits below the info grid */
+.embed-full{
+  width:100%;
+  margin-top:0;
+}
+
+/* ── Section header ── */
+.sec-eyebrow{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  margin-bottom:14px;
+  opacity:.7;
+}
+.sec-eyebrow-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0}
+.sec-h2{
+  font-size:clamp(28px,3.8vw,42px);
+  font-weight:900;
+  line-height:1.08;
+  letter-spacing:-.028em;
+  margin-bottom:14px;
+}
+.sec-desc{
+  font-size:16px;
+  color:rgba(255,255,255,.55);
+  line-height:1.7;
+  font-weight:400;
+  max-width:440px;
+}
+
+/* ── Venue tags ── */
+.venue-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;row-gap:8px}
+.venue-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.09);
+  border-radius:999px;padding:7px 14px;
+  font-size:12px;font-weight:600;color:rgba(255,255,255,.6);
+  transition:all .15s;
+  text-decoration:none;
+  min-height:36px;
+  cursor:pointer;
+}
+.venue-tag:hover{background:rgba(255,255,255,.09);color:#fff}
+
+/* ── Features ── */
+.feature-list{display:flex;flex-direction:column;gap:12px;margin-top:24px}
+.feature-item{display:flex;align-items:flex-start;gap:11px}
+.feat-check{
+  width:18px;height:18px;border-radius:5px;
+  display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;margin-top:2px;
+}
+.feat-text{font-size:14px;color:rgba(255,255,255,.58);line-height:1.55}
+.feat-text strong{color:rgba(255,255,255,.9);font-weight:700}
+
+/* ── Quote ── */
+.quote{
+  margin-top:26px;
+  background:rgba(255,255,255,.03);
+  border-left:2.5px solid var(--yellow);
+  border-radius:0 10px 10px 0;
+  padding:16px 18px;
+}
+.quote-text{font-size:13px;color:rgba(255,255,255,.68);line-height:1.65;font-style:italic;margin-bottom:7px}
+.quote-source{font-size:10px;font-weight:700;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Embed ── */
+.embed-wrap{
+  border-radius:18px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.1);
+  background:#0a0c28;
+  box-shadow:0 32px 80px rgba(0,0,0,.5),0 0 80px rgba(65,70,224,.12);
+  position:relative;
+}
+.embed-wrap::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  border-radius:18px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.1);
+}
+.embed-ratio{position:relative;padding-bottom:58%;height:0}
+.embed-ratio iframe{position:absolute;inset:0;width:100%;height:100%;border:none}
+
+/* ── Stats ── */
+.stats-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1px;
+  background:var(--border);
+  border:1px solid var(--border);
+  border-radius:16px;
+  overflow:hidden;
+  margin-top:48px;
+}
+@media(max-width:560px){.stats-grid{grid-template-columns:1fr 1fr}}
+.stat{
+  background:rgba(255,255,255,.025);
+  padding:24px 20px;text-align:center;
+}
+.stat-val{
+  font-size:36px;font-weight:900;
+  letter-spacing:-.03em;line-height:1;
+  margin-bottom:5px;
+}
+.stat-lbl{font-size:11px;color:rgba(255,255,255,.4);line-height:1.5}
+
+/* ── Divider ── */
+.hdiv{height:1px;background:linear-gradient(to right,transparent,var(--border) 20%,var(--border) 80%,transparent);max-width:1140px;margin:0 auto}
+
+/* ── CTA section ── */
+.cta-wrap{
+  padding:100px 24px;text-align:center;
+  position:relative;overflow:hidden;
+}
+.cta-bg{
+  position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 60% 70% at 50% 110%,rgba(65,70,224,.2) 0%,transparent 60%),
+    radial-gradient(ellipse 35% 50% at 15% 60%,rgba(178,102,228,.09) 0%,transparent 55%);
+}
+.cta-h2{
+  font-size:clamp(32px,5vw,56px);
+  font-weight:900;letter-spacing:-.03em;
+  line-height:1.08;margin-bottom:16px;
+  position:relative;z-index:1;
+}
+.cta-h2 span{color:var(--yellow)}
+.cta-sub{
+  font-size:17px;color:var(--muted);
+  max-width:420px;margin:0 auto 36px;
+  line-height:1.65;position:relative;z-index:1;
+}
+.cta-btns{
+  display:flex;align-items:center;justify-content:center;
+  gap:12px;flex-wrap:wrap;
+  position:relative;z-index:1;
+}
+.cta-btn{
+  background:var(--yellow);color:var(--navy);
+  font-weight:800;font-size:15px;
+  padding:15px 32px;border-radius:12px;
+  text-decoration:none;
+  display:inline-flex;align-items:center;gap:8px;
+  box-shadow:0 8px 32px rgba(245,218,65,.3);
+  transition:all .2s;
+}
+.cta-btn:hover{transform:translateY(-2px);box-shadow:0 14px 44px rgba(245,218,65,.4)}
+.cta-btn-ghost{
+  color:rgba(255,255,255,.6);font-weight:600;font-size:15px;
+  padding:15px 28px;border-radius:12px;
+  text-decoration:none;
+  border:1px solid rgba(255,255,255,.15);
+  display:inline-flex;align-items:center;gap:8px;
+  transition:all .2s;background:rgba(255,255,255,.04);
+}
+.cta-btn-ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.3);color:#fff}
+
+.cta-proof{
+  display:flex;align-items:center;justify-content:center;
+  gap:28px;flex-wrap:wrap;
+  margin-top:52px;
+  position:relative;z-index:1;
+}
+.proof-item{text-align:center}
+.proof-val{font-size:28px;font-weight:900;color:var(--yellow);letter-spacing:-.02em}
+.proof-lbl{font-size:11px;color:rgba(255,255,255,.32);margin-top:2px}
+.proof-div{width:1px;height:36px;background:rgba(255,255,255,.08)}
+
+.cta-section{padding:88px 24px 80px;text-align:center;position:relative;overflow:hidden}
+.cta-bg-grad{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 65% 80% at 50% 110%,rgba(65,70,224,.22) 0%,transparent 60%),radial-gradient(ellipse 40% 50% at 10% 70%,rgba(178,102,228,.1) 0%,transparent 55%)}
+.cta-inner{position:relative;z-index:1;max-width:680px;margin:0 auto}
+.cta-h2{font-size:clamp(30px,4.5vw,52px);font-weight:900;letter-spacing:-.03em;line-height:1.08;margin-bottom:14px;color:#fff}
+.cta-yellow{color:var(--yellow)}
+.cta-sub{font-size:17px;color:rgba(255,255,255,.5);max-width:440px;margin:0 auto 32px;line-height:1.65;font-weight:400}
+.cta-btns{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-bottom:52px}
+.cta-btn-primary{background:var(--yellow);color:var(--navy);font-weight:800;font-size:15px;padding:14px 30px;border-radius:12px;text-decoration:none;display:inline-flex;align-items:center;gap:8px;box-shadow:0 8px 32px rgba(245,218,65,.28);transition:all .2s;font-family:inherit}
+.cta-btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 44px rgba(245,218,65,.4)}
+.cta-btn-ghost{color:rgba(255,255,255,.6);font-weight:600;font-size:15px;padding:14px 28px;border-radius:12px;text-decoration:none;font-family:inherit;border:1px solid rgba(255,255,255,.15);display:inline-flex;align-items:center;gap:8px;transition:all .2s;background:rgba(255,255,255,.04)}
+.cta-btn-ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.28);color:#fff}
+.cta-proof-row{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap}
+.cta-proof-item{text-align:center}
+.cta-proof-val{font-size:30px;font-weight:900;color:var(--yellow);letter-spacing:-.025em;line-height:1}
+.cta-proof-lbl{font-size:12px;color:rgba(255,255,255,.35);margin-top:4px;font-weight:500}
+.cta-proof-div{width:1px;height:40px;background:rgba(255,255,255,.1)}
+@media(max-width:768px){.cta-section{padding:64px 18px 60px}}
+@media(max-width:480px){.cta-btns{flex-direction:column;align-items:stretch}.cta-btn-primary,.cta-btn-ghost{justify-content:center}.cta-proof-div{display:none}.cta-proof-row{gap:24px}}
+
+/* ── Animations ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── Responsive ── */
+@media(max-width:1024px){
+  .embed-ratio{padding-bottom:62%}
+}
+@media(max-width:768px){
+  .hero{padding:48px 18px 48px}
+  .hero-products{gap:9px}
+  .prod-card{min-width:calc(50% - 5px);padding:14px 16px}
+  .tour-section{padding:56px 18px}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .embed-ratio{padding-bottom:65%}
+}
+@media(max-width:480px){
+  .hero-h1{font-size:34px;letter-spacing:-.025em}
+  .line-animated{height:1.15em}
+  .hero-products{flex-direction:column;align-items:stretch}
+  .prod-card{max-width:100%;min-width:unset}
+  .stats-grid{grid-template-columns:1fr}
+  .embed-ratio{padding-bottom:72%}
+  .tour-grid{gap:24px}
+  .sec-h2{font-size:26px}
+}
+
+/* ── Venue tag accent colors per product ── */
+#enterprise .venue-tag{color:#7c7fe8;border-color:rgba(65,70,224,.28);background:rgba(65,70,224,.07)}
+#enterprise .venue-tag:hover{background:rgba(65,70,224,.14);color:#a0a3f0;border-color:rgba(65,70,224,.45)}
+#elite .venue-tag{color:#c98af0;border-color:rgba(178,102,228,.28);background:rgba(178,102,228,.07)}
+#elite .venue-tag:hover{background:rgba(178,102,228,.14);color:#dbadf5;border-color:rgba(178,102,228,.45)}
+#wetrack .venue-tag{color:var(--green);border-color:rgba(52,211,153,.28);background:rgba(52,211,153,.07)}
+#wetrack .venue-tag:hover{background:rgba(52,211,153,.14);color:#6ee7b7;border-color:rgba(52,211,153,.45)}
+
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-orb-1"></div>
+  <div class="hero-orb-2"></div>
+
+  <div class="hero-badge"><span class="badge-dot"></span>Product Tours</div>
+
+  <h1 class="hero-h1">
+    <span class="line-static">See how Momentus helps venues&nbsp;</span><span class="typewriter-target" id="typeTarget"></span><span class="typewriter-cursor" id="typeCursor">|</span>
+  </h1>
+
+  <p class="hero-sub">
+    Three products. Click into any of them below and explore at your own pace.
+  </p>
+
+  <!-- Product cards above fold -->
+  <div class="hero-products">
+
+    <a href="#enterprise" class="prod-card" data-color="purple">
+      <div class="prod-card-num" style="color:#7c7fe8">01</div>
+      <div class="prod-card-name"><span style="color:#7c7fe8">Momentus<br>Enterprise</span></div>
+      <div class="prod-card-venues">Convention Centers, Corporate &amp; Universities</div>
+      <div class="prod-card-arrow" style="color:#7c7fe8">Explore →</div>
+    </a>
+
+    <a href="#elite" class="prod-card" data-color="violet">
+      <div class="prod-card-num" style="color:#c98af0">02</div>
+      <div class="prod-card-name"><span style="color:#c98af0">Momentus<br>Elite</span></div>
+      <div class="prod-card-venues">Stadiums, Arenas &amp; Performing Arts</div>
+      <div class="prod-card-arrow" style="color:#c98af0">Explore →</div>
+    </a>
+
+    <a href="#wetrack" class="prod-card" data-color="green">
+      <div class="prod-card-num" style="color:var(--green)">03</div>
+      <div class="prod-card-name"><span style="color:var(--green)">Momentus<br>WeTrack</span></div>
+      <div class="prod-card-venues">Risk, Incident &amp; Sustainability</div>
+      <div class="prod-card-arrow" style="color:var(--green)">Explore →</div>
+    </a>
+
+  </div>
+
+  <p class="hero-hint">↓ Scroll to explore each product in depth</p>
+</section>
+
+<!-- ── STICKY NAV ── -->
+<nav class="sticky-nav" id="stickyNav">
+  <div class="sticky-nav-inner">
+    <a href="#enterprise" class="snav-tab active" data-id="enterprise">
+      <span class="snav-dot" style="background:var(--purple)"></span>
+      Enterprise
+    </a>
+    <a href="#elite" class="snav-tab" data-id="elite">
+      <span class="snav-dot" style="background:var(--violet)"></span>
+      Elite
+    </a>
+    <a href="#wetrack" class="snav-tab" data-id="wetrack">
+      <span class="snav-dot" style="background:var(--green)"></span>
+      WeTrack
+    </a>
+
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════ ENTERPRISE ═══════════════════════════════ -->
+<section class="tour-section" id="enterprise" data-section="enterprise">
+  <div class="container">
+    <div class="tour-grid">
+
+      <div>
+        <div class="sec-eyebrow" style="color:#7c7fe8">
+          <span class="sec-eyebrow-dot" style="background:var(--purple)"></span>
+          Momentus Enterprise
+        </div>
+        <h2 class="sec-h2">Everything in one place.<br>Nothing missed.</h2>
+        <p class="sec-desc">
+          Sales, planning, operations, accounting, reporting — connected end to end. Built for large venues where a single dropped detail costs real money.
+        </p>
+        <div class="venue-tags">
+          <a href="https://gomomentus.com/convention-center-event-software" class="venue-tag">Convention Centers</a>
+          <a href="https://gomomentus.com/corporate-campus-event-software" class="venue-tag">Corporate Campuses</a>
+          <a href="https://gomomentus.com/university-campus-event-software" class="venue-tag">Universities</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(65,70,224,.2)">
+              <svg width="10" height="10" fill="none" stroke="#7c7fe8" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Inquiry to invoice</strong> without switching tools — every step of the sales cycle in one timeline</p>
+          </div>
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(65,70,224,.2)">
+              <svg width="10" height="10" fill="none" stroke="#7c7fe8" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Operations that talk to accounting</strong> — costs, work orders, and spend update in real time</p>
+          </div>
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(65,70,224,.2)">
+              <svg width="10" height="10" fill="none" stroke="#7c7fe8" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Reporting that surfaces what matters</strong> — revenue by event type, space utilization, team performance</p>
+          </div>
+        </div>
+        <div class="quote">
+          <p class="quote-text">"We consolidated 20 systems down to one. Now 90% of our tech stack is on Momentus."</p>
+          <p class="quote-source">Jaarbeurs Convention Center</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Full-width embed -->
+    <div class="embed-full">
+      <div class="embed-wrap">
+        <div class="embed-ratio">
+          <iframe
+            src="https://reachsuite.app/sc/8eb6491e-d933-49e7-b719-19f2ec906092/exp-3e0e6900/?rsOwnerEmail=TWljaGVsbGUuV2hpdHRsZUBnb21vbWVudHVzLmNvbQ%3D%3D"
+            title="Momentus Enterprise interactive product tour"
+            allow="fullscreen"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-val" style="color:#7c7fe8">7–15%</div>
+        <div class="stat-lbl">Revenue growth, Minneapolis Convention Center</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" style="color:#7c7fe8">60%+</div>
+        <div class="stat-lbl">Faster payment processing and reconciliation</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" style="color:#7c7fe8">90%</div>
+        <div class="stat-lbl">Of tech stack consolidated onto one platform</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="hdiv"></div>
+
+<!-- ═══════════════════════════════ ELITE ═══════════════════════════════ -->
+<section class="tour-section" id="elite" style="content-visibility:auto;contain-intrinsic-size:0 900px" data-section="elite">
+  <div class="container">
+    <div class="tour-grid">
+
+      <div>
+        <div class="sec-eyebrow" style="color:#c98af0">
+          <span class="sec-eyebrow-dot" style="background:var(--violet)"></span>
+          Momentus Elite
+        </div>
+        <h2 class="sec-h2">Every night is different.<br>The platform shouldn't be.</h2>
+        <p class="sec-desc">
+          Built for venues that run multiple events simultaneously across multiple spaces. Bookings, crew, catering, client comms — coordinated in one view.
+        </p>
+        <div class="venue-tags">
+          <a href="https://gomomentus.com/stadium-arena-event-software" class="venue-tag">Stadiums &amp; Arenas</a>
+          <a href="https://gomomentus.com/performing-arts-center-event-software" class="venue-tag">Performing Arts</a>
+          <a href="https://gomomentus.com/conference-center-event-software" class="venue-tag">Conference Centers</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(178,102,228,.18)">
+              <svg width="10" height="10" fill="none" stroke="#c98af0" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Calendar that shows everything</strong> — conflicts, availability, and setup time across all your spaces at once</p>
+          </div>
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(178,102,228,.18)">
+              <svg width="10" height="10" fill="none" stroke="#c98af0" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Client portal for self-service</strong> — let promoters and clients check availability, submit requests, and approve documents online</p>
+          </div>
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(178,102,228,.18)">
+              <svg width="10" height="10" fill="none" stroke="#c98af0" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Work orders that close themselves</strong> — ops teams get mobile runsheets, check off tasks, and flag issues in real time</p>
+          </div>
+        </div>
+        <div class="quote">
+          <p class="quote-text">"Moving to Momentus reduced our workload by 60%. Our team has time back for the work that matters."</p>
+          <p class="quote-source">Mandurah Performing Arts Center</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Full-width embed -->
+    <div class="embed-full">
+      <div class="embed-wrap">
+        <div class="embed-ratio">
+          <iframe
+            src="https://reachsuite.app/go/exp-3f7b87a8"
+            title="Momentus Elite interactive product tour"
+            allow="fullscreen"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-val" style="color:#c98af0">83%</div>
+        <div class="stat-lbl">Time saved checking availability and responding to enquiries</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" style="color:#c98af0">48%</div>
+        <div class="stat-lbl">Increase in bookings after launching a live online portal</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" style="color:#c98af0">60%</div>
+        <div class="stat-lbl">Workload reduction across Elite customers</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="hdiv"></div>
+
+<!-- ═══════════════════════════════ WETRACK ═══════════════════════════════ -->
+<section class="tour-section" id="wetrack" style="content-visibility:auto;contain-intrinsic-size:0 900px" data-section="wetrack">
+  <div class="container">
+    <div class="tour-grid">
+
+      <div>
+        <div class="sec-eyebrow" style="color:var(--green)">
+          <span class="sec-eyebrow-dot" style="background:var(--green)"></span>
+          Momentus WeTrack
+        </div>
+        <h2 class="sec-h2">What happens when<br>something goes wrong.</h2>
+        <p class="sec-desc">
+          Risk planning, live incident logging, and sustainability tracking — all in one place. Built for the teams who keep events safe from before they start to after they end.
+        </p>
+        <div class="venue-tags">
+          <span class="venue-tag">Risk Management</span>
+          <span class="venue-tag">Incident Response</span>
+          <span class="venue-tag">Sustainability</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(52,211,153,.14)">
+              <svg width="10" height="10" fill="none" stroke="var(--green)" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Plan for every scenario</strong> — build risk registers, assign owners, run tabletop exercises before game day</p>
+          </div>
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(52,211,153,.14)">
+              <svg width="10" height="10" fill="none" stroke="var(--green)" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Log and escalate from anywhere on-site</strong> — mobile-first incident reporting that reaches the right people in seconds</p>
+          </div>
+          <div class="feature-item">
+            <div class="feat-check" style="background:rgba(52,211,153,.14)">
+              <svg width="10" height="10" fill="none" stroke="var(--green)" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <p class="feat-text"><strong>Sustainability you can report on</strong> — track energy, waste, and carbon data across events to meet compliance targets</p>
+          </div>
+        </div>
+        <div class="quote">
+          <p class="quote-text">"WeTrack gives us a tailored workflow for each venue's specific safety needs. Nothing generic."</p>
+          <p class="quote-source">Tampa Bay Sports Authority</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Full-width embed -->
+    <div class="embed-full">
+      <div class="embed-wrap">
+        <div class="embed-ratio">
+          <iframe
+            src="https://reachsuite.app/go/exp-2e373804"
+            title="Momentus WeTrack interactive product tour"
+            allow="fullscreen"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-val" style="color:var(--green);font-size:26px;padding-top:4px">Real-time</div>
+        <div class="stat-lbl">Incident reporting and escalation from any device on-site</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" style="color:var(--green)">4,000+</div>
+        <div class="stat-lbl">Venues worldwide trust Momentus for safe events</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" style="color:var(--green);font-size:26px;padding-top:4px">One platform</div>
+        <div class="stat-lbl">For risk, operations, and sustainability — no switching tools</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ── CTA ── -->
+<section class="cta-section" style="content-visibility:auto;contain-intrinsic-size:0 400px">
+  <div class="cta-bg-grad"></div>
+  <div class="cta-inner">
+    <h2 class="cta-h2">Seen enough?<br><span class="cta-yellow">Let&rsquo;s talk about your venue.</span></h2>
+    <p class="cta-sub">A 30-minute call with our team gets you a walkthrough built around your actual operation.</p>
+    <div class="cta-btns">
+      <a href="https://gomomentus.com/request-demo" class="cta-btn-primary">
+        Book a demo
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      <a href="https://gomomentus.com/customer-stories" class="cta-btn-ghost">Read customer stories</a>
+    </div>
+    <div class="cta-proof-row">
+      <div class="cta-proof-item">
+        <div class="cta-proof-val">4,000+</div>
+        <div class="cta-proof-lbl">Venues worldwide</div>
+      </div>
+      <div class="cta-proof-div"></div>
+      <div class="cta-proof-item">
+        <div class="cta-proof-val">14%</div>
+        <div class="cta-proof-lbl">Avg. revenue growth</div>
+      </div>
+      <div class="cta-proof-div"></div>
+      <div class="cta-proof-item">
+        <div class="cta-proof-val">60%+</div>
+        <div class="cta-proof-lbl">Workload reduction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── JS ── -->
+<script>
+(function(){
+
+  // ── Typewriter ──────────────────────────────────────
+  var WORDS = [
+    'book more events.',
+    'grow revenue.',
+    'work faster.',
+    'make better decisions.',
+    'save costs.',
+    'increase profitability.'
+  ];
+  var el = document.getElementById('typeTarget');
+  var wi = 0, ci = 0, del = false;
+  function tick() {
+    var w = WORDS[wi];
+    if (!del) {
+      ci++;
+      el.textContent = w.slice(0, ci);
+      if (ci === w.length) { del = true; setTimeout(tick, 1500); return; }
+      setTimeout(tick, 65);
+    } else {
+      ci--;
+      el.textContent = w.slice(0, ci);
+      if (ci === 0) { del = false; wi = (wi+1) % WORDS.length; setTimeout(tick, 280); return; }
+      setTimeout(tick, 36);
+    }
+  }
+  setTimeout(tick, 850);
+  // ────────────────────────────────────────────────────
+
+  var sticky = document.getElementById('stickyNav');
+  var tabs  = document.querySelectorAll('.snav-tab[data-id]');
+  var sections = document.querySelectorAll('[data-section]');
+  var navH  = 60 + sticky.offsetHeight;
+
+  // Smooth scroll with offset for hero-card clicks and tab clicks
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = this.getAttribute('href').slice(1);
+      var el = document.getElementById(id);
+      if(!el) return;
+      e.preventDefault();
+      var top = el.getBoundingClientRect().top + window.scrollY - navH - 16;
+      window.scrollTo({top:top, behavior:'smooth'});
+    });
+  });
+
+  // Intersection observer for active tab
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        var id = e.target.getAttribute('data-section');
+        tabs.forEach(function(t){
+          t.classList.toggle('active', t.getAttribute('data-id')===id);
+        });
+      }
+    });
+  },{rootMargin:'-25% 0px -65% 0px', threshold:0, passive:true});
+
+  sections.forEach(function(s){io.observe(s);});
+
+
+
+})();
+</script>
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Momentus Product Tours",
+    "description": "Explore interactive product tours for Momentus Enterprise, Elite, and WeTrack venue management platforms.",
+    "url": "https://gomomentus.com/product-tours",
+    "publisher": { "@type": "Organization", "name": "Momentus Technologies", "url": "https://gomomentus.com" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Momentus Product Tours",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Momentus Enterprise",
+        "description": "End-to-end venue management software for convention centers, corporate campuses, and universities. Sales, planning, operations, accounting, and reporting in one platform.",
+        "url": "https://gomomentus.com/product-tours#enterprise"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Momentus Elite",
+        "description": "Venue management software for stadiums, arenas, performing arts centers, and conference centers. Multi-space calendar, client portal, and mobile work orders.",
+        "url": "https://gomomentus.com/product-tours#elite"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Momentus WeTrack",
+        "description": "Risk, incident response, and sustainability platform for event venues. Real-time incident logging, risk registers, and sustainability reporting.",
+        "url": "https://gomomentus.com/product-tours#wetrack"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Momentus Enterprise?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Momentus Enterprise is an end-to-end venue management platform designed for convention centers, corporate campuses, and universities. It connects sales, event planning, operations, accounting, and reporting in one system."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Momentus Elite?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Momentus Elite is venue management software built for stadiums, arenas, performing arts centers, and conference centers. It features multi-space calendar management, a self-service client portal, and mobile work orders for operations teams."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is Momentus WeTrack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Momentus WeTrack is a risk, incident response, and sustainability management platform for event venues. It enables real-time incident logging, risk register management, and sustainability data tracking across events."
+        }
+      }
+    ]
+  }
+]
+</script>
+</body>
+</html>
